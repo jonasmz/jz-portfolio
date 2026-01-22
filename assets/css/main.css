@@ -1,0 +1,65 @@
+@import url('./themes/dark.theme.css');
+
+
+/* #region definicios de root */
+    /* Fuentes */
+    :root {
+    --jz-default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --jz-heading-font: "Raleway",  sans-serif;
+    --jz-nav-font: "Poppins",  sans-serif;
+    }
+
+    /* Colores globales */
+    :root { 
+    --jz-bg-color: #ffffff; 
+    --jz-default-color: #272829;
+    --jz-heading-color: #45505b;
+    --jz-accent-color: #0563bb; 
+    --jz-surface-color: #ffffff;
+    --jz-contrast-color: #ffffff;
+    }
+
+    /* Colores del menu de navegacion */
+    :root {
+    --jz-nav-color: #45505b;  
+    --jz-nav-hover-color: #0563bb; 
+    --jz-nav-mobile-background-color: #ffffff; 
+    --jz-nav-dropdown-background-color: #ffffff;
+    --jz-nav-dropdown-color: #212529; 
+    --jz-nav-dropdown-hover-color: #0563bb;
+    }
+
+    :root {
+    scroll-behavior: smooth;
+    }
+/* #endregion definicios de root */
+
+/* #region Estilos globales */
+body {
+  color: var(--jz-default-color);
+  background-color: var(--jz-bg-color);
+  font-family: var(--jz-default-font);
+}
+
+a {
+  color: var(--jz-accent-color);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: color-mix(in srgb, var(--jz-accent-color), transparent 25%);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--jz-heading-color);
+  font-family: var(--jz-heading-font);
+}
+/* #endregion Estilos globales */
+
