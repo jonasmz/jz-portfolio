@@ -1,0 +1,20 @@
+/* #region Theme Dark */
+:root[jz-data-theme="dark"] {
+
+  /* Colores globales */
+  --jz-bg-color: #252525;
+  --jz-default-color: #e4e6eb;
+  --jz-heading-color: #f1f3f5;
+  --jz-accent-color: #4dabf7;
+  --jz-surface-color: #181c22;
+  --jz-contrast-color: #000000;
+
+  /* Colores del menú de navegación */
+  --jz-nav-color: #e4e6eb;
+  --jz-nav-hover-color: #4dabf7;
+  --jz-nav-mobile-background-color: #252525;
+  --jz-nav-dropdown-background-color: #181c22;
+  --jz-nav-dropdown-color: #e4e6eb;
+  --jz-nav-dropdown-hover-color: #4dabf7;
+}
+/* #endregion Theme Dark */
