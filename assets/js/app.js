@@ -9,6 +9,15 @@
       sidebarToggleBtn.classList.toggle('ri-menu-fold-3-line');
     }
     sidebarToggleBtn.addEventListener('click', toggleSidebar);
+
+    // Cerrar el sidebar al hacer click en un item del menu
+    document.querySelectorAll('#sidebar-menu a').forEach(navmenu => {
+    navmenu.addEventListener('click', () => {
+      if (document.querySelector('.sidebar-show')) {
+        toggleSidebar();
+      }
+    });
+  });
     
     // cerrar sidebar al hacer click fuera de él
     document.addEventListener('click', (event) => {
