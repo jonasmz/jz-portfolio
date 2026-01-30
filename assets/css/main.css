@@ -39,6 +39,7 @@ body {
   color: var(--jz-default-color);
   background-color: var(--jz-bg-color);
   font-family: var(--jz-default-font);
+  scrollbar-width: thin;
 }
 
 a {
@@ -279,7 +280,18 @@ h6 {
 
 /* #endregion Header */
 
+/* #region main */
 
+    /* #region global sections */
+      .main-content section {
+        padding: 60px 20px;
+        min-height: 100vh;
+      }
+
+
+    /* #endregion global sections */
+
+    /* #endregion main */
 
 /* #region preloader */
 #preloader {
