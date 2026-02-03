@@ -1,0 +1,13 @@
+@import url('./color-scheme.css');
+
+
+:root[jz-data-theme="dark"] {
+
+  /* Colores globales */
+  --jz-bg-color: var(--graphite);
+  --jz-default-color: var(--platinum);
+  --jz-heading-color: var(--alice-blue);
+  --jz-primary-color: var(--ocean-deep);
+  --jz-secondary-color: var(--blue-bell);
+  --jz-tertiary-color: var(--baltic-blue);
+}

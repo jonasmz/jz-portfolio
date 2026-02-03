@@ -1,0 +1,19 @@
+:root {
+/* CSS HEX */
+--graphite: #2b2e31ff;
+--charcoal-blue: #3c454fff;
+--baltic-blue: #315f8bff;
+--ocean-deep: #0563bbff;
+--blue-bell: #4f9ee9ff;
+--alice-blue: #dde3e9ff;
+--platinum: #f2f3f5ff;
+
+/* CSS RGB */
+--graphite-rgb: 43 46 49;
+--charcoal-blue-rgb: 60 69 79;
+--baltic-blue-rgb: 49 95 139;
+--ocean-deep-rgb: 5 99 187;
+--blue-bell-rgb: 79 158 233;
+--alice-blue-rgb: 221 227 233;
+--platinum-rgb: 242 243 245;
+}
