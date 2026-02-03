@@ -1,3 +1,6 @@
+@import url('./themes/light.theme.css');
+@import url('./themes/dark.theme.css');
+
 /* #region Globals */
 
 :root {
@@ -10,5 +13,71 @@
     scroll-behavior: smooth;
 }
 
+body {
+  color: var(--jz-default-color);
+  background-color: var(--jz-bg-color);
+  font-family: var(--jz-default-font);
+}
+
+a {
+  color: var(--jz-primary-color);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: color-mix(in srgb, var(--jz-secondary-color), transparent 25%);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading-color);
+  font-family: var(--heading-font);
+}
 /* #endregion Globals */
+
+
+
+/* #region Preloader */
+
+#preloader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  inset: 0;
+  z-index: 999999;
+  overflow: hidden;
+  background: var(--jz-bg-color);
+  transition: all 0.6s ease-out;
+}
+
+#preloader:before {
+  content: "";
+  border: 6px solid var(--jz-tertiary-color);
+  border-color: var(--jz-primary-color) transparent var(--jz-primary-color) transparent;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: animate-preloader 1.5s linear infinite;
+}
+
+@keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* #endregion Preloader */
+
+
 
