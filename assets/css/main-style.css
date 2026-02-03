@@ -1,0 +1,14 @@
+/* #region Globals */
+
+:root {
+    --jz-default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --jz-heading-font: "Raleway",  sans-serif;
+    --jz-nav-font: "Poppins",  sans-serif;
+}
+
+:root {
+    scroll-behavior: smooth;
+}
+
+/* #endregion Globals */
+
