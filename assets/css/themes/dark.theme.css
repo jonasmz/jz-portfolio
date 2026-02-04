@@ -8,6 +8,14 @@
   --jz-default-color: var(--platinum);
   --jz-heading-color: var(--alice-blue);
   --jz-primary-color: var(--ocean-deep);
-  --jz-secondary-color: var(--blue-bell);
-  --jz-tertiary-color: var(--baltic-blue);
+  --jz-secondary-color: var(--baltic-blue);
+  --jz-tertiary-color: var(--blue-bell);
+
+  /* Colores de navegacion */
+  --jz-nav-background-color: rgba(var(--alice-blue-rgb), 0.92);
+  --jz-nav-color: var(--charcoal-blue);
+  --jz-nav-active-bg-color: rgba(var(--ocean-deep-rgb), 1);
+  --jz-nav-font-active-color: rgba(var(--platinum-rgb), 1);
+  --jz-nav-font-contrast-color: rgba(var(--alice-blue-rgb), 0.80);
+
 }
