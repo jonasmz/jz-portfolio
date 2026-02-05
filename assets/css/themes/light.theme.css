@@ -10,4 +10,11 @@
   --jz-primary-color: var(--ocean-deep);
   --jz-secondary-color: var(--baltic-blue);
   --jz-tertiary-color: var(--blue-bell);
+
+    /* Colores de navegacion */
+  --jz-nav-background-color: rgba(var(--graphite-rgb), 1);
+  --jz-nav-color: rgba(var(--platinum-rgb), 0.6);
+  --jz-nav-active-bg-color: rgba(var(--ocean-deep-rgb), 1);
+  --jz-nav-font-active-color: rgba(var(--platinum-rgb), 1);
+  --jz-nav-font-contrast-color: rgba(var(--graphite-rgb), 0.9);
 }
